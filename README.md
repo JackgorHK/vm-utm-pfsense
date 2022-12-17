@@ -45,3 +45,9 @@ Add the below commands to the bottom of `QEMU` settings.
 -device e1000,mac=A9-B2-18-A8-E9-54,netdev=lan2 -netdev vmnet-host,id=lan2,net-uuid=42F88754-F5F2-41A7-A886-2288CAABB6CB
 ```
 This is how we can make UTM to use internal networks for our VM(s).
+
+
+## References:
+* https://wiki.qemu.org/Documentation/Networking
+* https://patchew.org/QEMU/20220315230741.21578-1-Vladislav.Yaroshchuk@jetbrains.com/
+* https://superuser.com/questions/1730217/how-to-create-network-with-3-guest-virtual-machines-in-macos-on-an-m1-macbook
